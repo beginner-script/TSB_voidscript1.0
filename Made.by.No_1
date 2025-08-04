@@ -1,7 +1,6 @@
 local player = game.Players.LocalPlayer
 local RunService = game:GetService("RunService")
 local UIS = game:GetService("UserInputService")
-
 local introGui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
 introGui.IgnoreGuiInset = true
 introGui.ResetOnSpawn = false
